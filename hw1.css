@@ -1,0 +1,15 @@
+* {
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+p {
+    border: green 12px solid;
+
+}
+
+.margin {
+    margin: 16px;
+}
+
