@@ -44,18 +44,20 @@ body {
 
 }
 
+/* Nav */
 
 nav {
     position: fixed;
-    top: 0;
-    left: 0;
+    top: 0px;
+    left: 0px;
     width: 100%;
     height: 50px;
-    background-color: white;
+    background-color: #333;
+    color: white;
     z-index: 1;
 }
 
-nav div.container.d-flex{
+nav div{
     height: 100%;
     justify-content: space-between;
     align-content: center;
@@ -66,7 +68,7 @@ nav div h1 {
 }
 
 nav div h1:hover {
-    color: green;
+    color: seagreen;
 }
 
 
@@ -77,7 +79,7 @@ div ul {
     align-content: center;
 }
 
-div ul li {
+nav div ul li {
     padding-top: .2 rem;
     padding-bottom: .2 rem;
     padding-left: 1 rem;
@@ -94,8 +96,10 @@ div ul li:hover {
     color: green;
 }
 
+/* ShowCase */
+
 #showcase {
-    height 100vh;
+    height: 100vh;
     background-color: seagreen;
     color: white;
     display: flex;
@@ -105,25 +109,27 @@ div ul li:hover {
     height: 100%;
     width: 100%;
     flex-direction: column;
-    align-items: center;
-    justify-items: center;
+    align-content: center;
+    justify-content: center;
 }
 
 #showcase div h1 {
     font-size: 3.5 rem;
-    margin-bottom: 1 rem;    
+    margin-bottom: 1 rem;  
+    text-align: center;  
 }
 
 #showcase div p {
     font-size: 1.25 rem;
-    padding-top: 0;
-    padding-bottom: 0;
+    padding-top: 0px;
+    padding-bottom: 0px;
     padding-right: 10 rem;
     padding-left: 10rem;
     text-align: center;
     margin-bottom: 1 rem;    
 }
 
+/* Cards */
 
 #cards {
     height: 100vh;
@@ -133,18 +139,19 @@ div ul li:hover {
 
 }
 
-#cards .container {
+#cards div.container {
     align-items: center;
     justify-items: center;
+    
 }
 
-#cards .cards {
-    padding: 2rem;
-    margin: 0 1rem;
+#cards .card {
+    padding: 2rem 2rem;
+    margin: 0px 1rem;
     height: 60%;
     flex-direction: column;
-    justify-items: center;
-    align-items:space-around;
+    justify-content: space-around;
+    align-content:center;
     text-align: center;
     border: 3px solid white;
     border-radius: 5px;    
@@ -168,6 +175,7 @@ div.card i {
     text-align: justify;
 }
 
+/* Footer */
 
 footer {
     background-color: #333;
