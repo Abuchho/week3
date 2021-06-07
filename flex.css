@@ -199,3 +199,48 @@ footer .container p {
 footer .container > * {
     color: white;
 }
+
+/*-------------Media Query----------------*/
+
+
+@media only screen and (max-width: 500px) {
+    :root {
+        font-size: 10px;
+
+    };
+
+    .container {
+        max-width: 350px;
+    };
+
+    .container p {
+        padding: 0px 3rem;
+    };
+
+    #cards .container {
+        flex-direction: column;
+        margin-bottom: 1rem;
+    };
+
+    #cards .card {
+        height: 30%;
+    };
+
+
+}
+
+@media only screen and (max-height: 500px) {
+
+    .card {
+        height: 300vh;
+    };
+
+    #cards .container {
+        flex-direction: column;
+        margin-bottom: 1rem;
+    };
+
+    #cards .card {
+        height: 30%;
+    };
+}
