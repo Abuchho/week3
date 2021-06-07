@@ -44,7 +44,7 @@ body {
 
 }
 
-/* Nav */
+/* ---------------Nav ---------------------*/
 
 nav {
     position: fixed;
@@ -94,7 +94,7 @@ div ul li:hover {
     color: green;
 }
 
-/* ShowCase */
+/* ---------------ShowCase ----------------*/
 
 #showcase {
     height: 100vh;
@@ -127,7 +127,7 @@ div ul li:hover {
     margin-bottom: 1rem;   
 }
 
-/* Cards */
+/* ---------------Cards ------------------*/
 
 #cards {
     height: 100vh;
@@ -173,7 +173,7 @@ div ul li:hover {
     text-align: justify;
 }
 
-/* Footer */
+/* --------------Footer------------------ */
 
 footer {
     background-color: #333;
