@@ -57,7 +57,7 @@ nav {
     z-index: 1;
 }
 
-nav div{
+nav div {
     height: 100%;
     justify-content: space-between;
     align-content: center;
@@ -106,8 +106,8 @@ div ul li:hover {
 }
 
 #showcase div {
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vh;
     flex-direction: column;
     align-content: center;
     justify-content: center;
@@ -125,8 +125,8 @@ div ul li:hover {
     padding-bottom: 0px;
     padding-right: 10 rem;
     padding-left: 10rem;
-    text-align: center;
-    margin-bottom: 1 rem;    
+    text-align: center  ;
+    margin-bottom: 1 rem;   
 }
 
 /* Cards */
@@ -157,21 +157,21 @@ div ul li:hover {
     border-radius: 5px;    
 }
 
-div.card i {
+#cards .card div i {
     font-size: 2.5 rem;
     margin-bottom: 1.5 rem;
 
 }
 
 
-.lead {
+#cards .card div .lead {
     text-align: center;
     font-size: 1.7 rem;
     font-weight: bold;
     margin-bottom:  1rem;
 }
 
-.card div p {
+#cards .card div p {
     text-align: justify;
 }
 
