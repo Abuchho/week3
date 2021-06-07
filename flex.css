@@ -12,7 +12,7 @@ body {
 
 .container {
     max-width: 1200px;
-    margin: auto;
+    margin: 0 auto;
     
 }
 
@@ -21,10 +21,10 @@ body {
 }
 
 .btn {
-    padding-top: .5 rem;
-    padding-bottom: .5 rem;
-    padding-right: 2 rem;
-    padding-left: 2 rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
     border: none;
     border-radius: 25px;
     cursor: pointer;
@@ -36,11 +36,11 @@ body {
 }
 
 .btn-lg {
-    padding-top: 1 rem;
-    padding-bottom: 1 rem;
-    padding-left: 4 rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 4rem;
     padding-right: 4rem;
-    font-size: 1.2 rem;
+    font-size: 1.2rem;
 
 }
 
@@ -60,10 +60,10 @@ nav {
 nav div {
     height: 100%;
     justify-content: space-between;
-    align-content: center;
+    align-items: center;
 }
 
-nav div h1 {
+nav h1 {
     cursor: pointer;
 }
 
@@ -72,18 +72,16 @@ nav div h1:hover {
 }
 
 
-div ul {
+nav div ul {
     
     list-style: none;
-    justify-content: center;
-    align-content: center;
 }
 
 nav div ul li {
-    padding-top: .2 rem;
-    padding-bottom: .2 rem;
-    padding-left: 1 rem;
-    padding-right: 1 rem;
+    padding-top: .2rem;
+    padding-bottom: .2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     cursor: pointer;
 }
 
@@ -114,19 +112,19 @@ div ul li:hover {
 }
 
 #showcase div h1 {
-    font-size: 3.5 rem;
-    margin-bottom: 1 rem;  
+    font-size: 3.5rem;
+    margin-bottom: 1rem;  
     text-align: center;  
 }
 
 #showcase div p {
-    font-size: 1.25 rem;
+    font-size: 1.25rem;
     padding-top: 0px;
     padding-bottom: 0px;
-    padding-right: 10 rem;
+    padding-right: 10rem;
     padding-left: 10rem;
     text-align: center  ;
-    margin-bottom: 1 rem;   
+    margin-bottom: 1rem;   
 }
 
 /* Cards */
